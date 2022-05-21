@@ -1,0 +1,57 @@
+/* ----------- TAGS ---------------------- */
+@import "./tags/_form.css";
+@import "./tags/_svg.css";
+
+/* ----------- PIECES & COMPONENTS -------- */
+@import "./pieces/_button.css";
+@import "./pieces/_full-width-blog-card.css";
+@import "./pieces/_large-numbers.css";
+@import "./pieces/_vertical-pluses.css";
+@import "./pieces/_with-rules.css";
+@import "./pieces/_progress-bar.css";
+@import "./pieces/_search.css";
+@import "./pieces/_search-bar.css";
+@import "./pieces/_subnav.css";
+@import "./pieces/_retina.css";
+
+/* ----------- LAYOUT ---------------------- */
+@import "./layout/_typography.css";
+@import "./layout/_grid.css";
+@import "./layout/_header.css";
+@import "./layout/_footer.css";
+
+/* ----------- PAGE SPECIFIC --------------- */
+@import "./pages/_about.css";
+@import "./pages/_contact.css";
+
+@import "./code/shades-of-purple.css";
+
+/* ----------- VARIABLES -----------------
+ *   I'm using CSS variables for
+ *      - highlight background color has a specific linear-gradient
+ *      - :before and :after pseudo element styling
+*/
+:root {
+  /* colors */
+  --almostWhite: #efefef;
+  --baliHai: #7f98ac;
+  --black: #000;
+  --brightPink: #f40082;
+  --brightTurquoise: #44facd;
+  --bunting: #161743;
+  --candyAppleRed: #ee0e01;
+  --gold: #ffd200;
+  --java: #26c9c3;
+  --pistachio: #95cf00;
+  --sapphire: #3452a5;
+  --serenade: #ffe3d4;
+  --white: #fff;
+
+  /* typography */
+  --sans: "Nunito", Helvetica, Arial, sans-serf;
+  --serif: "ff-tisa-web-pro", serif;
+  --condensed: "alternate-gothic-no-1-d", sans-serif;
+  --modern: "bodoni-urw", serif;
+  --handwriting: "northwell", sans-serif;
+  --mono: "ui-monospace", monospace;
+}

@@ -1,0 +1,12 @@
+/* what's different */
+.whats-different {
+  grid-template-rows: auto 1fr;
+}
+
+.whats-different .content p {
+  @apply pl-8 relative;
+}
+
+.whats-different .content span[role="image"] {
+  @apply left-0 absolute;
+}

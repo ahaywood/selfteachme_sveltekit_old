@@ -1,0 +1,41 @@
+.with-rules {
+  @apply inline-block font-condensed uppercase text-4xl relative;
+}
+
+.with-rules::before,
+.with-rules::after {
+  display: block;
+  height: 1px;
+  border-top: 2px solid var(--white);
+  width: 5rem;
+  position: absolute;
+  content: "";
+  top: 15px;
+}
+
+@media (min-width: 640px) {
+  .with-rules::before,
+  .with-rules::after {
+    width: 8rem;
+  }
+}
+
+.with-rules::before {
+  left: -6rem;
+}
+
+@media (min-width: 640px) {
+  .with-rules::before {
+    left: -9rem;
+  }
+}
+
+.with-rules::after {
+  right: -6rem;
+}
+
+@media (min-width: 640px) {
+  .with-rules::after {
+    right: -9rem;
+  }
+}

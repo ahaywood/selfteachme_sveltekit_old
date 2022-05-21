@@ -1,0 +1,66 @@
+/* default */
+.full-width-card > .content {
+  @apply pr-12 col-span-12 md:col-span-6 md:col-start-7 -col-end-1 pt-8 md:pt-15 px-2 md:px-0;
+}
+
+.full-width-card > .image {
+  @apply col-span-12 md:col-span-6 relative;
+}
+
+/* default background color */
+.blog-category {
+  @apply bg-white;
+}
+
+/* latest posts */
+.latest-posts .blog-category {
+  @apply bg-almostWhite;
+}
+
+/* ------------------- ping pong cards ------------------- */
+/* odd */
+.ping-pong .stripe:nth-child(odd) .full-width-card > .content {
+  @apply sm:pr-12 md:pl-12 col-span-12 md:col-start-6 md:-col-end-1 lg:-col-end-2;
+}
+
+.ping-pong .stripe:nth-child(odd) .full-width-card > .image {
+  @apply col-span-12 md:col-span-5;
+}
+
+.full-width-card .blog-category,
+.blog-category {
+  @apply md:right-0 md:top-0;
+}
+
+.full-width-card .blog-date,
+.blog-date {
+  @apply top-15 md:top-15 lg:top-16 left-0 md:left-auto md:right-0 lg:-right-12;
+}
+
+
+/* even */
+.ping-pong .stripe:nth-child(even) .full-width-card > .image {
+  @apply row-span-1 row-start-1 md:col-start-8 md:-col-end-1;
+}
+
+.ping-pong .stripe:nth-child(even) .full-width-card > .content {
+  @apply md:pl-12 lg:pl-0 lg:pr-12 row-span-1 row-start-2 md:row-start-1 lg:col-start-2 col-span-12 md:col-span-7 lg:col-span-6;
+}
+
+.ping-pong .stripe:nth-child(even) .full-width-card .blog-date {
+  @apply left-0 lg:-left-12;
+}
+
+.ping-pong .stripe:nth-child(even) .full-width-card .blog-category {
+  @apply left-0 top-0 md:right-auto;
+}
+
+/* workflow & productivity category */
+.ping-pong .stripe:nth-child(even) .full-width-card .blog-category.workflow-productivity ~ .blog-date {
+  @apply top-20 sm:top-24 xl:top-16;
+}
+
+.blog-category.workflow-productivity ~ .blog-date {
+  @apply top-20 sm:top-24 xl:top-16;
+}
+

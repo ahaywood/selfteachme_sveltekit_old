@@ -1,0 +1,11 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#332D13",
+    "titleBar.activeBackground": "#47401A",
+    "titleBar.activeForeground": "#FBFAF6"
+  },
+  "cSpell.words": [
+    "SUPABASE",
+    "webfont"
+  ],
+}
