@@ -14,6 +14,12 @@ categories:
   - 'javascript'
 ---
 
+<script>
+  import ButtonLink from "$components/shared/ButtonLink.svelte"
+</script>
+
+<ButtonLink>Yolo</ButtonLink>
+
 Last week, I was working on a project and wrote the frontend code for togglable, tag component in React that I was particularly proud of. — you know, that feeling when you get something to work in code and you think, "I'm a genius!" Let's build it!
 
 Here's a look at the final product:

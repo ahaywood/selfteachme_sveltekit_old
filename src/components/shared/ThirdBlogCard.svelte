@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { getBlogFolder } from '$utils/files';
   import { getPostMonth, getPostDate } from '$utils/date';
 
   export let className: string = '';
@@ -9,7 +10,7 @@
   <div class="relative flex h-64">
     <img
       class="w-full h-full object-cover absolute top-0 left-0 gap-4"
-      src={`/src/content//blog/${content.filepath}/images/${content.hero}`}
+      src={`/src/content/blog/${getBlogFolder(content.filepath)}/${content.hero}`}
       alt={content.title}
     />
     <div class="bg-white text-center relative m-2 px-2 py-6 w-full mt-auto">
